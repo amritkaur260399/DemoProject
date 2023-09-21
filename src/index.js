@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const route =require("./route/route")
 
 const app = express();
-
+//parse data
 //parse data json form to body
 app.use(express.json());
 const port = process.env.PORT || 3000;
